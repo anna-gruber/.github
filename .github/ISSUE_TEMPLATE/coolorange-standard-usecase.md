@@ -10,7 +10,7 @@ assignees: ''
 ## UseCase
 
 ### Userstory
-
+Als backoffice Mitarbeiter möchte ich, dass die Händler automatisch benachrichtigt werden über die fälligen Lizenzen ihrer Kunden, um sicher zu stellen, dass die Lizenzen rechtzeitig erneuert werden. Das soll periodisch passieren am 1. und am 15. jedes Monats für die Lizenzen, welche im kommenden Monat ablaufen werden. Bei fehlerhaften Lizenzdaten im cOffice wird eine entsprechende Fehlermeldung im Teams Team Backoffice/cOffice im Channel cOffice subrenewal gepostet, damit das backoffice sicherstellen kann, dass jeder Händler benachrichtigt wird. 
 
 
 ### Workflow
@@ -25,7 +25,7 @@ Assumption:
 
 | # | GIVEN | WHEN | THEN |
 | - | - | - | - |
-| 1. |    |    |    |
+| 1. |  Buyer ist ausgefüllt und Send renewal to auch ausgefüllt  |  Lizenz läuft Ende des Monats ab |  Email wird gesendet  |
 
 ### Task-list
 
